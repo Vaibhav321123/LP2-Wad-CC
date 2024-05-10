@@ -1,0 +1,21 @@
+#install docker
+
+docker --version
+
+node server.js
+
+docker build -t "partb" .
+
+run
+docker images
+
+dockerfile code
+ FROM node:alpine
+  COPY . /partb 
+  CMD node /partb/server.js
+
+server.js
+console.log("Name: Nikum Pranjal");
+console.log("Class: TE");
+console.log("Subject: LP-II Web Application Development");
+console.log("We are implementing Assignment-2B");
