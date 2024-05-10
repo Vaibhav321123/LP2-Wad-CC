@@ -1,0 +1,28 @@
+Download python
+from-https://www.python.org/downloads/
+
+Download Google Cloud SDK
+from-https://cloud.google.com/sdk/docs/install#windows
+
+Launch the installer and follow the prompts
+
+Perform initial setup by running command --- gcloud init
+
+Grant authorization to Cloud SDK tools to access Google
+Cloud
+
+Write python file with hello world statement
+
+Write app.yaml configuration file
+
+Open the shell
+
+Run the application with the following command in shell:
+
+cmd> py google-cloud-sdk\bin\dev_appserver.py <path
+to the directory where application reside>
+
+Open the web browser and type
+http://localhost:8080
+
+ http://localhost:8000
